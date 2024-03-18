@@ -1,0 +1,351 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Total_Login{
+  background-color:#000E09;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  gap: 40px;
+}
+.Total_Login .Head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.Total_Login .Head>img{
+  width: 90px;
+  height: 90px;
+}
+.Total_Login .Head>p{
+  color: #36A546CC;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.02px;
+  width: 146px;
+  height: 20px;
+  text-align: center;
+  font-weight:50;
+  font-size: 16px;
+}
+.Total_Login>input{
+  width: 238px;
+  height: 42px;
+  box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+  mix-blend-mode: normal;
+  opacity: 1;
+  color:#1F191966;
+  filter:drop-shadow(3px 3px 3px #4A494947);
+  background-color:#4A494947;
+  border: none;
+  border-radius: 28px;
+  padding-left: 20px;
+  padding-top: 7px;
+  outline: none;
+  color: #FFFDFD40;
+  letter-spacing: 0.3px;
+}
+.Total_Login> .Button{
+  text-decoration: none;
+  width: 238px;
+  height: 42px;
+  background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8CFF0026;
+  opacity: 1;
+  color:#FFFFFF8C;
+  border-radius: 28px;
+  outline: none;
+  letter-spacing: 0.3px;
+  text-align: center;
+  padding-top: 7px;
+  font-weight: 700;
+}
+.Total_Login>a{
+  text-decoration: none;
+  width: 200px;
+  height: 19px;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 0.02px;
+  color: #36A546;
+  opacity: 1;
+  font-size: 15px;
+}
+.Total_Login>a>span>a{
+  text-decoration: none;
+  color: #36A546;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 0.02px;
+}
+
+
+/* <-------------------DashBoard----------------------------------------------------------> */
+.Total_Dashboard{
+  background-color:#000E09;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:auto;
+  gap: 40px;
+  width: 100%;
+  padding: 50px 30px 0px 30px;
+}
+.Total_Dashboard>img{
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  position: relative;
+  left: 100px;
+}
+.Total_Dashboard .Dashboard_Img{
+  display: flex;
+  flex-direction: row;
+}
+.Total_Dashboard .Dashboard_Img>img{
+  width: 100px;
+  height: 100px;
+}
+.Total_Dashboard .Dashboard_Img>p{
+  width: 35px;
+  height: 35px;
+  background-color:#5E5E5EB5;
+  opacity: 1;
+  color: #36A546;
+  border-radius: 50%;
+  text-align: center;
+  justify-self: center;
+  padding-top: 5px;
+}
+.Total_Dashboard  .Heading_Dashboard{
+  width: 328px;
+  height: 45px;
+  background: #192d2d 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  opacity: 1;
+  color: #FFFFFFB3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  letter-spacing: 0.01px;
+  opacity: 0.84;
+}
+.Total_Productivity{
+background-color:#64626285;
+width:328px;
+height:auto;
+position:relative;
+bottom: 85px;
+mix-blend-mode: normal;
+opacity: 0.4;
+color:#FFFFFF ;
+border-radius: 20px 20px 10px 10px;
+padding: 70px 20px 70px 20px;
+
+}
+.Productivity_item{
+  display: flex;
+  flex-direction: column;
+  margin-top:30px;
+  opacity: 1;
+}
+.Products_head{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  opacity: 1;
+}
+.Products_head>p{
+  font-size: 12px;
+  letter-spacing: 0.01px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.Products_head>h6{
+  color: #05ff2a;
+  font-size: 12px;
+}
+.Progress_Bar{
+  margin-top: 10px;
+  height: 10px;
+  background-color:#33ff05;
+  border-radius: 20px;
+  border: 1px solid #65ff65;
+}
+
+/* <---------------------NavBar--------------------------------> */
+.Total_NavBar{
+  width: 320px;
+  height: 63px;
+  background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+  box-shadow: inset 8px 4px 4px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #0F2323;
+  opacity: 0.9;
+  position: relative;
+  bottom: 100px;
+  border-radius: 20px;
+  border: 1px solid #0F2323;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Total_NavBar> .Home_Icon{
+  width: 50%;
+  height: 100%;
+  font-size: 30px;
+  color: #388143;
+  opacity: 1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.Total_NavBar> .User_Icon{
+  width: 50%;
+  height: 100%;
+  font-size: 30px;
+  color: #388143;
+  opacity: 0.7;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.User_Icon:hover{
+  background-color: #38383880;
+  cursor: pointer;
+}
+.Home_Icon:hover{
+  background-color: #38383880;
+  cursor: pointer;
+} 
+.Icon{
+  color: #388143;
+}
+
+/* <---------------------------------------Users page-------------------------------------> */
+.search{
+  width: 298px;
+  height: 55px;
+  background: #5E5E5E82 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: inset 0px 4px 0px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #595959;
+  opacity: 0.5;
+  color: White;
+}
+.search>input{
+  background-color:transparent;
+  border: none;
+  color:white;
+  outline: none;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* <-------------------UserDetails--------------------------> */
+.Total_User_Card{
+  background-color: #1A2C2C99;
+  display: flex;
+  flex-direction: column;
+  width: 298px;
+  height: 220px;
+  border-radius: 15px;
+}
+.User_Count{
+  align-self: flex-end;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid black;
+  color: white;
+}
+.User_Details{
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+justify-content:center;
+padding: 0px 30px;
+}
+.User_Details>p{
+  margin-top: 15px;
+  color:#6d6c6ce5;
+  font-weight: 500;
+}
+#count{
+  color: white;
+}
+#name{
+  color: white;
+}
+#dob{
+  color: orange;
+}
+#role{
+  color: #36A546;
+}
+.NavBar{
+  margin-top: 100px;
+}
+.Users_Total{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Logout{
+  text-decoration: none;
+  width: 238px;
+  height: 42px;
+  background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8CFF0026;
+  opacity: 1;
+  color:#FFFFFF8C;
+  border-radius: 28px;
+  outline: none;
+  letter-spacing: 0.3px;
+  text-align: center;
+  padding-top: 7px;
+  font-weight: 700;
+  position: relative;
+  top: -100px;
+}
+.Users_Total>p{
+  color: white;
+}
+::placeholder{
+  color: white;
+  opacity: 1;
+}
+
+@media screen and (max-Width:768px){
+  .Total_Dashboard  .Heading_Dashboard{
+    width: 300px;
+  }
+  .Total_Productivity{
+    width: 300px;
+  } 
+
+}
